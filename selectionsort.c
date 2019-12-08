@@ -29,10 +29,7 @@ void linkedListSelectionSort(
     toSwap = itI;
     itJ = getNext(itI);
     while(itJ != NULL) {
-      if(compare(
-        getValue(toSwap),
-        getValue(itJ)
-      )) {
+      if(compare(getValue(itJ), getValue(toSwap))) {
         toSwap = itJ;
       }
       itJ = getNext(itJ);
