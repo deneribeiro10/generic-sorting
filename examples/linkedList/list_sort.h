@@ -2,7 +2,7 @@
 #define __LIST_SORT_H__
 
 #include "list.h"
-#include "selectionsort.h"
+#include "../../selectionsort/selectionsort.h"
 
 void listSelectionSort(List l);
 
